@@ -18,9 +18,6 @@ class Person
                   else
                     num
                   end
-
-    # with clamp
-    # @happiness = num.clamp(0, 10)
   end
 
   def hygiene=(num)
@@ -32,8 +29,6 @@ class Person
                   num
                 end
     
-    # with clamp
-    # @hygiene = num.clamp(0, 10)
   end
 
   def clean?
